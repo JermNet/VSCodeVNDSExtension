@@ -1,8 +1,9 @@
 {
-  "name": "scr",
+  "name": "vndssyntax",
   "displayName": "vnds Syntax",
+  "publisher": "vndsSyntax",
   "description": "Syntax highlighter for vnds's programming language",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.89.0"
   },
