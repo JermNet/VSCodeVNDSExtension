@@ -1,0 +1,47 @@
+{
+  "name": "scr",
+  "displayName": "vnds Syntax",
+  "description": "Syntax highlighter for vnds's programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.applySyntaxHighlighting",
+        "title": "Apply vnds Syntax Highlighting"
+      }
+    ],
+    "languages": [
+      {
+        "id": "vnds",
+        "aliases": [
+          "vnds Syntax",
+          "vnds"
+        ],
+        "extensions": [
+          ".scr"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "vnds",
+        "scopeName": "source.scr",
+        "path": "./syntaxes/vnds.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "My Theme",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}

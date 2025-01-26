@@ -1,0 +1,130 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "vnds Syntax",
+	"scopeName": "source.scr",
+	"patterns": [
+		{
+			"name": "keyword.control.bgload.scr",
+			"match": "^\\s*bgload\\b"
+		},
+		{
+			"name": "keyword.control.setimg.scr",
+			"match": "^\\s*setimg\\b"
+		},
+		{
+			"name": "keyword.control.music.scr",
+			"match": "^\\s*music\\b"
+		},
+		{
+			"name": "keyword.control.sound.scr",
+			"match": "^\\s*sound\\b"
+		},
+		{
+			"name": "keyword.control.delay.scr",
+			"match": "^\\s*delay\\b"
+		},
+
+
+		{
+			"name": "keyword.control.tilde.scr",
+			"match": "(?<=\\bsound\\s|\\bmusic\\s|\\btext\\s)~"
+		},
+		{
+			"name": "keyword.control.textadvance.scr",
+			"match": "(?<=\\btext\\s)(!|@)"
+		},
+		{
+			"name": "keyword.control.cleartextmark.scr",
+			"match": "(?<=\\bcleartext\\s)!"
+		},
+		{
+			"name": "keyword.control.math.scr",
+			"match": "(?<=\\b\\s)(==|\\+|\\-|=)"
+		},
+		{
+			"name": "keyword.control.dollar.scr",
+			"match": "\\$"
+		},
+
+
+		{
+            "name": "keyword.control.choice.scr",
+			"match": "^\\s*(choice)\\b"
+        },
+		{
+            "name": "keyword.control.selected.scr",
+            "match": "(?<=\\bif\\s)selected"
+        },		
+		{
+			"name": "keyword.control.if.scr",
+			"match": "^\\s*(if|fi)\\b"
+		},
+
+
+		{
+			"name": "keyword.control.var.scr",
+			"match": "^\\s*(setvar|gsetvar)\\b"
+		},
+		{
+			"name": "keyword.control.random.scr",
+			"match": "^\\s*random\\b"
+		},
+
+
+		{
+			"name": "keyword.control.jump.scr",
+			"match": "^\\s*jump\\b"
+		},
+		{
+			"name": "keyword.control.label.scr",
+			"match": "^\\s*label\\b"
+		},
+		{
+			"name": "keyword.control.goto.scr",
+			"match": "^\\s*goto\\b"
+		},
+
+
+		{
+			"name": "keyword.control.text.scr",
+			"match": "^\\s*text\\b"
+		},
+		{
+			"name": "keyword.control.cleartext.scr",
+			"match": "^\\s*cleartext\\b"
+		},
+
+		{
+			"name": "keyword.control.ctext-grey.scr",
+			"match": "\\\\x1b\\[30;1m"
+		},
+		{
+			"name": "keyword.control.ctext-red.scr",
+			"match": "\\\\x1b\\[31;1m"
+		},
+		{
+			"name": "keyword.control.ctext-green.scr",
+			"match": "\\\\x1b\\[32;1m"
+		},
+		{
+			"name": "keyword.control.ctext-yellow.scr",
+			"match": "\\\\x1b\\[33;1m"
+		},
+		{
+			"name": "keyword.control.ctext-blue.scr",
+			"match": "\\\\x1b\\[34;1m"
+		},
+		{
+			"name": "keyword.control.ctext-purple.scr",
+			"match": "\\\\x1b\\[35;1m"
+		},
+		{
+			"name": "keyword.control.ctext-cyan.scr",
+			"match": "\\\\x1b\\[36;1m"
+		},
+		{
+			"name": "keyword.control.ctext-white.scr",
+			"match": "\\\\x1b\\[37;1m"
+		}
+	]
+}

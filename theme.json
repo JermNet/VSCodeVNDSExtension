@@ -1,0 +1,214 @@
+{
+    "name": "My Theme",
+    "type": "dark",
+    "tokenColors": [
+      {
+        "scope": "keyword.control.bgload.scr",
+        "settings": {
+          "foreground": "#9CDCFE",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.setimg.scr",
+        "settings": {
+          "foreground": "#9CDCFE",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.music.scr",
+        "settings": {
+          "foreground": "#9CDCFE",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.sound.scr",
+        "settings": {
+          "foreground": "#9CDCFE",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.delay.scr",
+        "settings": {
+          "foreground": "#9CDCFE",
+          "fontStyle": "bold"
+        }
+      },
+
+
+      {
+        "scope": "keyword.control.tilde.scr",
+        "settings": {
+          "foreground": "#6A782D",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.textadvance.scr",
+        "settings": {
+          "foreground": "#6A782D",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.cleartextmark.scr",
+        "settings": {
+          "foreground": "#6A782D",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.math.scr",
+        "settings": {
+          "foreground": "#6A782D",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.dollar.scr",
+        "settings": {
+          "foreground": "#6A782D",
+          "fontStyle": "bold"
+        }
+      },
+
+
+      {
+        "scope": "keyword.control.choice.scr",
+        "settings": {
+          "foreground": "#C586C0",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.selected.scr",
+        "settings": {
+          "foreground": "#C586C0",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.if.scr",
+        "settings": {
+          "foreground": "#C586C0",
+          "fontStyle": "bold"
+        }
+      },
+
+
+      {
+        "scope": "keyword.control.var.scr",
+        "settings": {
+          "foreground": "#B5CEA8",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.random.scr",
+        "settings": {
+          "foreground": "#B5CEA8",
+          "fontStyle": "bold"
+        }
+      },
+
+
+      {
+        "scope": "keyword.control.jump.scr",
+        "settings": {
+          "foreground": "#D7BA5F",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.label.scr",
+        "settings": {
+          "foreground": "#D7BA5F",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.goto.scr",
+        "settings": {
+          "foreground": "#D7BA5F",
+          "fontStyle": "bold"
+        }
+      },
+
+
+      {
+        "scope": "keyword.control.text.scr",
+        "settings": {
+          "foreground": "#CE915B",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.cleartext.scr",
+        "settings": {
+          "foreground": "#CE915B",
+          "fontStyle": "bold"
+        }
+      },
+      
+      {
+        "scope": "keyword.control.ctext-grey.scr",
+        "settings": {
+          "foreground": "#797979",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.ctext-red.scr",
+        "settings": {
+          "foreground": "#FB0000",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.ctext-green.scr",
+        "settings": {
+          "foreground": "#00FB00",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.ctext-yellow.scr",
+        "settings": {
+          "foreground": "#FBFB00",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.ctext-blue.scr",
+        "settings": {
+          "foreground": "#0000FB",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.ctext-purple.scr",
+        "settings": {
+          "foreground": "#FB00FB",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.ctext-cyan.scr",
+        "settings": {
+          "foreground": "#00C4C4",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.control.ctext-white.scr",
+        "settings": {
+          "foreground": "#FBFBFB",
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  }
+  
